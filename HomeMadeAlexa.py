@@ -45,7 +45,7 @@ def run_alexa():
     elif 'joke' in command:
         talk(pyjokes.get_joke())
     elif 'treat' in command:
-        talk('Fuck you!')
+        talk('No way!')
     elif 'how are you' in command:
         talk('I was fine until I met you')
 
